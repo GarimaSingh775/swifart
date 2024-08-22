@@ -1,0 +1,48 @@
+.success-wrapper{
+    display: grid;
+    grid-template-columns: minmax(0,1250px);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 70vh;
+}
+
+.success-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.success-title{
+    font-size: 35px;
+    font-weight: 500;
+    color: rgb(255, 153, 0);
+}
+
+.success-msg{
+    font-size: 20px;
+    color: rgb(5, 40, 71);
+}
+
+.success-container button{
+    margin-top: 30px;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 3px solid rgb(6, 53, 95);
+    background-color: rgb(229, 237, 255);
+    color: rgb(6, 53, 95);
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.success-container button:hover{
+    background-color: rgb(6, 53, 95);
+    color: white;
+}
+
+.return-icon-success{
+    margin-right: 5px;
+}

@@ -1,0 +1,29 @@
+*{
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection{
+    background-color: rgb(19, 75, 117);
+    color: white;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgb(6, 53, 95);
+
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(171, 171, 171);
+    border-radius: 2px;    
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(255, 153, 0);
+}

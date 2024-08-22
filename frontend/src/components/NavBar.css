@@ -1,0 +1,78 @@
+.header-bg{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.18);
+        -webkit-user-select: none;  /* Safari */
+    -moz-user-select: none;     /* Firefox */
+    -ms-user-select: none;      /* Internet Explorer/Edge */
+    user-select: none;          /* Standard syntax */
+}
+
+.nav-bar{
+    display: grid;
+    grid-template-columns: minmax(0,1250px);
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-bar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar-container a{
+    text-decoration: none;
+}
+
+.logo-container .logo{
+    width: 220px;
+    object-fit: contain;
+}
+
+.cart-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 3px solid rgb(220, 220, 220);
+    padding: 3px 5px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 5px;
+}
+
+.cart-icon{
+    color: rgb(79, 79, 79);
+    font-size: 23px;
+    
+}
+
+.cart-quantity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(79, 79, 79);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    width: 30px;
+    height: 30px;
+}
+
+.right-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-icon{
+    padding-top: 3px;
+    font-size: 23px;
+    color: rgb(79, 79, 79);
+}
+

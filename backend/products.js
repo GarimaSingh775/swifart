@@ -1,0 +1,88 @@
+const products = [
+    {
+        id:1,
+        name: "Red Bull Drink",
+        desc: "Regular",
+        price: 3.55,
+        image: "https://www.redbull.com/energydrink/v1/resources/contentful/images/lcr8qbvxj7mh/3r9LNEQkKc4Qe6YaJnNBJ1/105d7f426869b046ba6984ab995791c9/IN_RBED_250_Single_Unit_close_ambient_ORIGINAL_DRES__1_.png?h=453&fm=webp&q=90",
+    },
+    {
+        id:2,
+        name: "Red Bull Sugarfree",
+        desc: "Diet",
+        price: 2.99,
+        image: "https://www.redbull.com/energydrink/v1/resources/contentful/images/lcr8qbvxj7mh/5yJ5aAgTkSl24TXP9IFA7l/933582c6cabc953a9d0001a23bb3dcfc/IN_RBSF_250_Single_Unit_close_ambient_ORIGINAL_DRES__1_.png?h=453&fm=webp&q=90",
+    },
+    {
+        id:3,
+        name: "Red Bull Summer",
+        desc: "Special Edition",
+        price: 3.27,
+        image: "https://www.redbull.com/energydrink/v1/resources/contentful/images/lcr8qbvxj7mh/3aAXegbkkF6vjeLCmYxsxk/fef933bdb7f29eaef6d5867ed804fac4/DRES_IN_SUMMER-Coconut-250ml_ambient_front_redbullcom.png?h=453&fm=webp&q=90",
+    },
+    {
+        id:4,
+        name: "Red Bull Yellow",
+        desc: "Special Edition",
+        price: 3.57,
+        image: "https://www.redbull.com/energydrink/v1/resources/contentful/images/lcr8qbvxj7mh/oI7JHUHs4T9261N7M1JEM/23692b6646a9e7dacd6600ffd169f392/IN_RBYE_250_Single_Unit_close_ambient_ORIGINAL_DRES__5_.png?h=453&fm=webp&q=90",
+    },
+    {
+        id:5,
+        name: "Red Bull Red",
+        desc: "Special Edition",
+        price: 2.87,
+        image: "https://www.redbull.com/energydrink/v1/resources/contentful/images/lcr8qbvxj7mh/376uTpes2R3UU30kjhDgMx/788487279150c3c3018057b9d2d1bb77/LRES_IN_RBRE_250_Single_Unit_close_ambient__1_.png?h=453&fm=webp&q=90",
+    },
+    {
+        id:6,
+        name: "Red Bull Orange",
+        desc: "Special Edition",
+        price: 3.33,
+        image: "https://www.redbull.com/energydrink/v1/resources/contentful/images/lcr8qbvxj7mh/5xwEiuPnsqeSAqK13mMq1u/84e57d0d90a29cec1183a5cbd42dcc61/LRES_CA_RBAP_250_Single_Unit_close_ambient-1.png?h=453&fm=webp&q=90",
+    },
+    {
+        id:7,
+        name: "Red Bull Blue",
+        desc: "Special Edition",
+        price: 3.81,
+        image: "https://www.redbull.com/energydrink/v1/resources/contentful/images/lcr8qbvxj7mh/4VRvUzhiLNUVT9NOvV7KdR/64994790000378311ec74764dc2080a1/CA_RBBE_250_Single-Unit_close_ambient_ORIGINAL_canwidth528px.png?h=453&fm=webp&q=90",
+    },
+    {
+        id:8,
+        name: "Red Bull Green",
+        desc: "Special Edition",
+        price: 1.99,
+        image: "https://www.redbull.com/energydrink/v1/resources/contentful/images/lcr8qbvxj7mh/7pOLfJdkO6QA6sBSuAdr4Z/1458eb7553d500a4da55cdf117816cd8/CA_RBGE_250_Single_Unit_close_ambient_ORIGINAL_DRES.png?h=453&fm=webp&q=90",
+    },
+    {
+        id:9,
+        name: "Red Bull Peach",
+        desc: "Special Edition",
+        price: 4.99,
+        image: "https://www.redbull.com/energydrink/v1/resources/contentful/images/lcr8qbvxj7mh/2oaNdVQRerWLzTgXAlVbeO/3668a2c8d2e89988e6f78f68aca3a020/CA_RBPEA_250_Single_Unit_close_ambient_ORIGINAL_DRES_2.png?h=453&fm=webp&q=90",
+    },
+    {
+        id:10,
+        name: "Red Bull Sea Blue",
+        desc: "Special Edition",
+        price: 5.99,
+        image: "https://www.redbull.com/energydrink/v1/resources/contentful/images/lcr8qbvxj7mh/hXHNuQuRfpfrf3KwLCED8/f37da7bffd85c72f4eff044f4ddcd780/DRES_CA_SEABLUE-Juneberry-250ml_ambient_front_redbullcom.png?h=453&fm=webp&q=90",
+    },
+    {
+        id:11,
+        name: "Red Bull Leaf",
+        desc: "Special Edition",
+        price: 1.89,
+        image: "https://www.redbull.com/energydrink/v1/resources/contentful/images/lcr8qbvxj7mh/6MwrHASTnsPN5ItrlnbnrP/a3399eb4a6b3ac3aa7dc7d2cc7c1170c/CA_CE_The_Summer_Edition_Curuba-Elderflower_250ml_ambient_closed_front_COM_FULL.png?h=453&fm=webp&q=90",
+    },
+    {
+        id:11,
+        name: "Red Bull Zero",
+        desc: "Diet",
+        price: 4.99,
+        image: "https://www.redbull.com/energydrink/v1/resources/contentful/images/lcr8qbvxj7mh/27Oo2JfJBblfYv2YWSClBO/1f8870ea922ef4b46054c1a84010683f/CA_RBZ_250_Single_Unit_close_ambient_ORIGINAL_DRES_2.png?h=453&fm=webp&q=90",
+    },
+];
+
+module.exports = products;

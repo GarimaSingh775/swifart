@@ -1,0 +1,52 @@
+.error-page-wrapper{
+    display: grid;
+    grid-template-columns: minmax(0,1250px);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.error-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-404{
+    font-size: 100px;
+    font-weight: 600;
+    color: rgb(6, 53, 95);
+    text-align: center;
+    line-height: 100%;
+}
+
+.page-not-found{
+    line-height: 150%;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 50px;
+    color: rgb(53, 53, 53);
+}
+
+.error-container button{
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 3px solid rgb(6, 53, 95);
+    background-color: rgb(229, 237, 255);
+    color: rgb(6, 53, 95);
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.error-container button:hover{
+    background-color: rgb(6, 53, 95);
+    color: white;
+}
+
+.return-icon{
+    margin-right: 5px;
+}
